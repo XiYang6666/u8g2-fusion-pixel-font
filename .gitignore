@@ -5,7 +5,8 @@ __pycache__/
 .ruff_cache/
 .pdm-python
 
-.venv
+.idea/
+.venv/
 
 font/
 bdf/
