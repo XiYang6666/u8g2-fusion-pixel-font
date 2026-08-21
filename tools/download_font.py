@@ -28,8 +28,7 @@ async def get_release_files() -> dict[str, str]:
 async def download_file(url: str, path: Path):
     response = await client.get(url, follow_redirects=True)
     response.raise_for_status()
-    with open(path, "wb") as f:
-        f.writelines(response.iter_bytes(chunk_size=4096))
+    await asyncio.to_thread(path.write_bytes, response.content)
 
 
 async def download_files(files_map: dict[str, str]):
