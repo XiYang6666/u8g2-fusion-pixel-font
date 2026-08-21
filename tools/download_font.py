@@ -5,6 +5,7 @@ from pathlib import Path
 from httpx import AsyncClient
 
 FONT_DIR = Path("font")
+FONT_DIR.mkdir(parents=True, exist_ok=True)
 
 client = AsyncClient()
 

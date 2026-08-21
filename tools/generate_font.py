@@ -7,6 +7,9 @@ bdfconv = "bdfconv.exe" if sys.platform.startswith("win32") else "bdfconv"
 BDF_DIR = Path("bdf")
 SRC_DIR = Path("src")
 
+BDF_DIR.mkdir(parents=True, exist_ok=True)
+SRC_DIR.mkdir(parents=True, exist_ok=True)
+
 for bdf_file in BDF_DIR.glob("*.bdf"):
     codes = set()
 

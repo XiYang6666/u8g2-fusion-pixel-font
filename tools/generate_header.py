@@ -29,6 +29,9 @@ HEADER_TEMPLATE_SUFFIX = """
 #endif
 """.strip()
 
+BDF_DIR.mkdir(parents=True, exist_ok=True)
+HEADER_FILE_PATH.parent.mkdir(parents=True, exist_ok=True)
+
 
 variables = []
 for file_path in BDF_DIR.glob("*.bdf"):
@@ -38,5 +41,8 @@ for file_path in BDF_DIR.glob("*.bdf"):
 with open(HEADER_FILE_PATH, "w", encoding="utf-8") as f:
     f.write(HEADER_TEMPLATE_PREFIX)
     f.write("\n")
-    f.writelines(f'extern const uint8_t {variable}[] U8G2_FONT_SECTION("{variable}");\n' for variable in variables)
+    f.writelines(
+        f'extern const uint8_t {variable}[] U8G2_FONT_SECTION("{variable}");\n'
+        for variable in variables
+    )
     f.write(HEADER_TEMPLATE_SUFFIX)
