@@ -13,9 +13,13 @@ HEADER_TEMPLATE_PREFIX = """
 #ifdef __cplusplus
 extern "C" {
 #endif
+
+#ifdef U8G2_USE_LARGE_FONTS
 """.strip()
 
 HEADER_TEMPLATE_SUFFIX = """
+#endif
+
 #ifdef __cplusplus
 }
 #endif
@@ -29,7 +33,6 @@ for file_path in BDF_DIR.glob("*.bdf"):
 
 with open(HEADER_FILE_PATH, "w", encoding="utf-8") as f:
     f.write(HEADER_TEMPLATE_PREFIX)
-    f.write("\n\n")
-    f.writelines(f'extern const uint8_t {variable}[] U8G2_FONT_SECTION("{variable}");\n' for variable in variables)
     f.write("\n")
+    f.writelines(f'extern const uint8_t {variable}[] U8G2_FONT_SECTION("{variable}");\n' for variable in variables)
     f.write(HEADER_TEMPLATE_SUFFIX)
