@@ -1,6 +1,10 @@
 #pragma once
 #include <stdint.h>
 
+#ifndef U8G2_USE_LARGE_FONTS
+#define U8G2_USE_LARGE_FONTS
+#endif
+
 #ifndef U8G2_FONT_SECTION
 #define U8G2_FONT_SECTION(name)
 #endif
