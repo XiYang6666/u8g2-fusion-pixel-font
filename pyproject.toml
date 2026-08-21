@@ -5,7 +5,7 @@ description = "Default template for PDM package"
 authors = [
     {name = "HanaTaka2137",email = "hanataka2137@xiyang6666.top"},
 ]
-dependencies = ["httpx>=0.28.1"]
+dependencies = ["httpx>=0.28.1", "rich>=15.0.0"]
 requires-python = ">=3.12,<3.15"
 readme = "README.md"
 license = {text = "MIT"}

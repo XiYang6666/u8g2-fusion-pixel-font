@@ -14,36 +14,36 @@ extern "C" {
 #endif
 
 #ifdef U8G2_USE_LARGE_FONTS
+extern const uint8_t u8g2_font_fusion_pixel_8px_monospaced_ja[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_8px_monospaced_ja");
+extern const uint8_t u8g2_font_fusion_pixel_8px_monospaced_ko[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_8px_monospaced_ko");
 extern const uint8_t u8g2_font_fusion_pixel_8px_monospaced_latin[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_8px_monospaced_latin");
 extern const uint8_t u8g2_font_fusion_pixel_8px_monospaced_zh_hans[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_8px_monospaced_zh_hans");
 extern const uint8_t u8g2_font_fusion_pixel_8px_monospaced_zh_hant[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_8px_monospaced_zh_hant");
-extern const uint8_t u8g2_font_fusion_pixel_8px_monospaced_ja[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_8px_monospaced_ja");
-extern const uint8_t u8g2_font_fusion_pixel_8px_monospaced_ko[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_8px_monospaced_ko");
+extern const uint8_t u8g2_font_fusion_pixel_8px_proportional_ja[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_8px_proportional_ja");
+extern const uint8_t u8g2_font_fusion_pixel_8px_proportional_ko[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_8px_proportional_ko");
 extern const uint8_t u8g2_font_fusion_pixel_8px_proportional_latin[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_8px_proportional_latin");
 extern const uint8_t u8g2_font_fusion_pixel_8px_proportional_zh_hans[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_8px_proportional_zh_hans");
 extern const uint8_t u8g2_font_fusion_pixel_8px_proportional_zh_hant[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_8px_proportional_zh_hant");
-extern const uint8_t u8g2_font_fusion_pixel_8px_proportional_ja[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_8px_proportional_ja");
-extern const uint8_t u8g2_font_fusion_pixel_8px_proportional_ko[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_8px_proportional_ko");
+extern const uint8_t u8g2_font_fusion_pixel_10px_monospaced_ja[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_10px_monospaced_ja");
+extern const uint8_t u8g2_font_fusion_pixel_10px_monospaced_ko[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_10px_monospaced_ko");
 extern const uint8_t u8g2_font_fusion_pixel_10px_monospaced_latin[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_10px_monospaced_latin");
 extern const uint8_t u8g2_font_fusion_pixel_10px_monospaced_zh_hans[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_10px_monospaced_zh_hans");
 extern const uint8_t u8g2_font_fusion_pixel_10px_monospaced_zh_hant[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_10px_monospaced_zh_hant");
-extern const uint8_t u8g2_font_fusion_pixel_10px_monospaced_ja[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_10px_monospaced_ja");
-extern const uint8_t u8g2_font_fusion_pixel_10px_monospaced_ko[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_10px_monospaced_ko");
+extern const uint8_t u8g2_font_fusion_pixel_10px_proportional_ja[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_10px_proportional_ja");
+extern const uint8_t u8g2_font_fusion_pixel_10px_proportional_ko[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_10px_proportional_ko");
 extern const uint8_t u8g2_font_fusion_pixel_10px_proportional_latin[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_10px_proportional_latin");
 extern const uint8_t u8g2_font_fusion_pixel_10px_proportional_zh_hans[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_10px_proportional_zh_hans");
 extern const uint8_t u8g2_font_fusion_pixel_10px_proportional_zh_hant[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_10px_proportional_zh_hant");
-extern const uint8_t u8g2_font_fusion_pixel_10px_proportional_ja[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_10px_proportional_ja");
-extern const uint8_t u8g2_font_fusion_pixel_10px_proportional_ko[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_10px_proportional_ko");
+extern const uint8_t u8g2_font_fusion_pixel_12px_monospaced_ja[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_12px_monospaced_ja");
+extern const uint8_t u8g2_font_fusion_pixel_12px_monospaced_ko[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_12px_monospaced_ko");
 extern const uint8_t u8g2_font_fusion_pixel_12px_monospaced_latin[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_12px_monospaced_latin");
 extern const uint8_t u8g2_font_fusion_pixel_12px_monospaced_zh_hans[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_12px_monospaced_zh_hans");
 extern const uint8_t u8g2_font_fusion_pixel_12px_monospaced_zh_hant[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_12px_monospaced_zh_hant");
-extern const uint8_t u8g2_font_fusion_pixel_12px_monospaced_ja[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_12px_monospaced_ja");
-extern const uint8_t u8g2_font_fusion_pixel_12px_monospaced_ko[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_12px_monospaced_ko");
+extern const uint8_t u8g2_font_fusion_pixel_12px_proportional_ja[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_12px_proportional_ja");
+extern const uint8_t u8g2_font_fusion_pixel_12px_proportional_ko[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_12px_proportional_ko");
 extern const uint8_t u8g2_font_fusion_pixel_12px_proportional_latin[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_12px_proportional_latin");
 extern const uint8_t u8g2_font_fusion_pixel_12px_proportional_zh_hans[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_12px_proportional_zh_hans");
 extern const uint8_t u8g2_font_fusion_pixel_12px_proportional_zh_hant[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_12px_proportional_zh_hant");
-extern const uint8_t u8g2_font_fusion_pixel_12px_proportional_ja[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_12px_proportional_ja");
-extern const uint8_t u8g2_font_fusion_pixel_12px_proportional_ko[] U8G2_FONT_SECTION("u8g2_font_fusion_pixel_12px_proportional_ko");
 #endif
 
 #ifdef __cplusplus
